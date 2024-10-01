@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'https://linkshortnr.vercel.app',
+    origin: process.env.FRONTEND_URL || 'https://linkshortner-ten.vercel.app',
     optionsSuccessStatus: 200
 }));
 
